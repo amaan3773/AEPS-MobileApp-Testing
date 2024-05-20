@@ -1,5 +1,5 @@
-About Project:
-Equitas AEPS is Android based application which gives a Service of AEPS System. With this application user can do aeps supported transactions like: Balance Enquiry,Mini statement, cash Withdrawal,Cash deposit etc and Fund transfer tx like : Adhaar to Adhaar & Adhaar to Account (Onus and Offus transactions).It interfaces finger scanner device (RD Mantra's Device) for authentication.(for approving authentication legs).
+
+Equitas AEPS is Android based application which gives a Service of AEPS System. With this application user can do AEPS supported transactions like: Balance Enquiry,Mini statement, cash Withdrawal, Cash deposit etc and Fund transfer tx like : Adhaar to Adhaar & Adhaar to Account (Onus and Offus transactions).It interfaces finger scanner device (RD Mantra's Device) for authentication (for approving authentication legs).
     AEPS (Adhaar Enabled Payment System) empowers bank customers to access their bank accounts with the help of their Adhaar number. It offers wife range of services from on-boarding a customer (via eKYC) to enabling customers to access their accounts using their Aadhaar number. 
     Sarvatra MicroATM has functional integration with AEPS andar EKYC, in addition to allowing Rupay cardbased Onus and Offus transactions on Micro ATMs (POS Terminals).
     Best Finger Detection (BFD) -UIDAI has come up with the BFD service for better biometric match during Authentication.
