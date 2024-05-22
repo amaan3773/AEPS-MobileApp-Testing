@@ -1,0 +1,84 @@
+Scenarios for AEPS MobileApp testing
+
+Scenario: User provides a valid Aadhaar number and a valid fingerprint.
+Expected Result: Authentication successful.
+Valid Aadhaar and Invalid Fingerprint
+
+Scenario: User provides a valid Aadhaar number but an invalid fingerprint.
+Expected Result: Authentication failed.
+Invalid Aadhaar and Valid Fingerprint
+
+Scenario: User provides an invalid Aadhaar number and a valid fingerprint.
+Expected Result: Authentication failed.
+Invalid Aadhaar and Invalid Fingerprint
+
+Scenario: User provides an invalid Aadhaar number and an invalid fingerprint.
+Expected Result: Authentication failed.
+Blocked Aadhaar Number
+
+Scenario: User provides a blocked Aadhaar number and a valid fingerprint.
+Expected Result: Authentication failed with a specific error indicating the Aadhaar number is blocked.
+Balance Enquiry
+Successful Balance Enquiry
+
+Scenario: User successfully authenticates and requests a balance enquiry.
+Expected Result: Balance information is displayed.
+Balance Enquiry with Invalid Authentication
+
+Scenario: User fails authentication and requests a balance enquiry.
+Expected Result: Balance enquiry is denied due to failed authentication.
+Network Issues during Balance Enquiry
+
+Scenario: User successfully authenticates but faces network issues during the balance enquiry request.
+Expected Result: Balance enquiry failed due to network issues.
+Cash Withdrawal
+Successful Cash Withdrawal
+
+Scenario: User successfully authenticates and requests a cash withdrawal within their balance limit.
+Expected Result: Cash is withdrawn, and the balance is updated accordingly.
+Insufficient Funds for Cash Withdrawal
+
+Scenario: User successfully authenticates and requests a cash withdrawal exceeding their balance.
+Expected Result: Withdrawal request is denied due to insufficient funds.
+Cash Withdrawal with Invalid Authentication
+
+Scenario: User fails authentication and requests a cash withdrawal.
+Expected Result: Withdrawal request is denied due to failed authentication.
+Network Issues during Cash Withdrawal
+
+Scenario: User successfully authenticates but faces network issues during the cash withdrawal request.
+Expected Result: Withdrawal request failed due to network issues.
+Mini Statement
+Successful Mini Statement Retrieval
+
+Scenario: User successfully authenticates and requests a mini statement.
+Expected Result: Mini statement with recent transactions is displayed.
+Mini Statement Retrieval with Invalid Authentication
+
+Scenario: User fails authentication and requests a mini statement.
+Expected Result: Mini statement request is denied due to failed authentication.
+Network Issues during Mini Statement Retrieval
+
+Scenario: User successfully authenticates but faces network issues during the mini statement request.
+Expected Result: Mini statement request failed due to network issues.
+Additional Scenarios
+Duplicate Transaction Request
+
+Scenario: User makes a duplicate transaction request within a short period.
+Expected Result: Duplicate transaction request is detected and handled appropriately.
+Transaction Timeout
+
+Scenario: User starts a transaction but does not complete it within the timeout period.
+Expected Result: Transaction times out and is rolled back.
+Suspicious Activity Detection
+
+Scenario: Multiple failed authentication attempts are made with the same Aadhaar number.
+Expected Result: System flags the Aadhaar number for suspicious activity and may temporarily block further attempts.
+Successful Biometric Update
+
+Scenario: User updates their biometric information in the system.
+Expected Result: New biometric data is successfully saved and used for subsequent transactions.
+Service Unavailability
+
+Scenario: AEPS service is temporarily unavailable due to maintenance.
+Expected Result: Users are notified about the service unavailability and asked to try again later.
