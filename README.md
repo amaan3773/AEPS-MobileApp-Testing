@@ -14,7 +14,7 @@ Equitas AEPS is Android based application which gives a Service of AEPS System. 
 - It is used for secure authenticaton
 ![image](https://github.com/amaan3773/AEPS-MobileApp-Testing/assets/170299266/60df9997-d75a-489e-ab3b-8928f0dadd16)
 
-# Test Cases;
+# Test Cases:
 The test cases cover the following scenarios:
 ### User Authentication
 - Valid Aadhaar number and fingerprint
@@ -28,4 +28,8 @@ The test cases cover the following scenarios:
 - Insufficient funds
 ### Mini Statement
 - Retrieve recent transactions
+
+ # Challenges Faced:
+- While checking the logs as per ISO8583 at AEPS Server for transaction status, it provides too much tricky information in the form of data elements.When transactions get failed or absorted, log gives complicated info about that transaction.
+- As per RTM , executing all test cases in stipulated sprint time was challenging.  
   
