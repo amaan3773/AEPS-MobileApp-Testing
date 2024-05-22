@@ -13,3 +13,19 @@ Equitas AEPS is Android based application which gives a Service of AEPS System. 
 # RD Mantras Device:
 - It is used for secure authenticaton
 ![image](https://github.com/amaan3773/AEPS-MobileApp-Testing/assets/170299266/60df9997-d75a-489e-ab3b-8928f0dadd16)
+
+# Test Cases;
+The test cases cover the following scenarios:
+### User Authentication
+- Valid Aadhaar number and fingerprint
+- Invalid Aadhaar number
+- Incorrect fingerprint
+### Balance Enquiry
+- Successful balance enquiry
+- Failed balance enquiry due to network issues
+### Cash Withdrawal
+- Successful cash withdrawal
+- Insufficient funds
+### Mini Statement
+- Retrieve recent transactions
+  
