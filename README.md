@@ -7,8 +7,9 @@ Equitas AEPS is Android based application which gives a Service of AEPS System. 
     Whatever transactions gets done, Its detail log(XML log) comes at switch/server end.
     Using that log, user can see all the detailed parameters of log.
 # AEPS application Images:
+![image](https://github.com/amaan3773/AEPS-MobileApp-Testing/assets/170299266/f151d2b8-b660-4426-b3ae-a830c34cd1cf)
 
-    
+
 # RD Mantras Device:
 - It is used for secure authenticaton
 ![image](https://github.com/amaan3773/AEPS-MobileApp-Testing/assets/170299266/60df9997-d75a-489e-ab3b-8928f0dadd16)
